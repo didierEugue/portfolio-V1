@@ -586,6 +586,25 @@ ul, ol {
     transform: scale(1.05);
 }
 
+.project-card-confidential {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-alt);
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: var(--space-md);
+}
+
+.project-card--confidential .project-card-image img {
+    display: none;
+}
+
 .project-card-overlay {
     position: absolute;
     inset: 0;
@@ -1055,6 +1074,20 @@ ul, ol {
 
 .modal-carousel-slide img:hover {
     opacity: 0.95;
+}
+
+.modal-carousel-slide--confidential {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-alt);
+}
+
+.modal-carousel-confidential {
+    color: var(--color-text-muted);
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
 }
 
 .modal-carousel-btn {
