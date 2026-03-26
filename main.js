@@ -364,4 +364,72 @@
             }
         });
     }
+
+    /* ══════════════════════════════════════════════
+       CONTACT FORM — EmailJS
+       ─────────────────────────────────────────────
+       Sur emailjs.com → Add Service → Gmail (didiereugene789@gmail.com)
+       → créer un template avec {{from_name}}, {{from_email}},
+         {{subject}}, {{message}}
+       → remplacer les 3 constantes ci-dessous
+    ══════════════════════════════════════════════ */
+    var EJS_PUBLIC_KEY  = 'ydSmQg3etfc4qkT3A';   // Account → Public Key
+    var EJS_SERVICE_ID  = 'service_nq0ocgp';   // Email Services → Service ID
+    var EJS_TEMPLATE_ID = 'template_kt86qc9';  // Email Templates → Template ID
+
+    if (typeof emailjs !== 'undefined') {
+        emailjs.init({ publicKey: EJS_PUBLIC_KEY });
+    }
+
+    var contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            var btn     = contactForm.querySelector('[type="submit"]');
+            var btnText = btn.textContent;
+
+            var name    = contactForm.querySelector('[name="name"]').value.trim();
+            var email   = contactForm.querySelector('[name="email"]').value.trim();
+            var subject = contactForm.querySelector('[name="subject"]') ? contactForm.querySelector('[name="subject"]').value.trim() : '(Sans objet)';
+            var message = contactForm.querySelector('[name="message"]').value.trim();
+
+            if (!name || !email || !message) { return; }
+
+            if (typeof emailjs === 'undefined') {
+                alert('EmailJS non chargé. Vérifiez votre connexion internet.');
+                return;
+            }
+
+            btn.disabled    = true;
+            btn.textContent = 'Envoi en cours…';
+
+            emailjs.send(EJS_SERVICE_ID, EJS_TEMPLATE_ID, {
+                from_name:  name,
+                from_email: email,
+                subject:    subject || '(Sans objet)',
+                message:    message
+            })
+            .then(function () {
+                btn.textContent = '✓ Message envoyé !';
+                btn.style.background = '#059669';
+                contactForm.reset();
+                setTimeout(function () {
+                    btn.textContent      = btnText;
+                    btn.style.background = '';
+                    btn.disabled         = false;
+                }, 4000);
+            })
+            .catch(function () {
+                btn.textContent      = '✗ Échec — réessayez';
+                btn.style.background = '#dc2626';
+                btn.disabled         = false;
+                setTimeout(function () {
+                    btn.textContent      = btnText;
+                    btn.style.background = '';
+                }, 4000);
+            });
+        });
+    }
+
 })();
