@@ -1,0 +1,248 @@
+CONTRAT DE PRESTATIONS DE SERVICES
+
+ENTRE LES SOUSSIGNES :
+1. Monsieur Vahiny Didier Eugène TATA, né(e) le 15/05/1999 à Maroantsetra (Madagascar),
+demeurant ANDROK AROK A/LAPOINTE Maroantsetra, Madagascar
+En cours d'immatriculation au registre du commerce et des sociétés ;
+Ci-après dénommé le "Prestataire" ;
+ET
+2. DEVPHANTOM, SAS, dont le siège social est situé 18 Rue Gustave Eiffel 91100
+Corbeil-Essonnes, immatriculée au registre du commerce et des sociétés sous le numéro
+d'identification 879 475 655 R.C.S. Evry, représentée par IBRAHIMA DANSOKHO en sa qualité de
+PDG, dument habilité ;
+Ci-après dénommé le "Client" ;
+Le Prestataire et le Client étant ci-après dénommés, ensemble, les "Parties" ou, l'un d'entre eu
+indifféremment, une "Partie".
+
+ETANT PREALABLEMENT RAPPELE CE QUI SUIT :
+Le Prestataire exerce une activité de Développeur.
+Le Client a souhaité avoir recours aux services du Prestataire.
+Le Client est lui-même prestataire au titre d'une mission plus globale qui lui a été confiée et dont il
+souhaite sous-traiter une mission au Prestataire.
+Dans ces circonstances, le Prestataire et le Client se sont rapprochés pour conclure le présent contrat
+de prestations de services (le "Contrat") afin de définir et convenir des modalités des services du
+Prestataire au bénéfice du Client.
+
+IL A ETE CONVENU CE QUI SUIT :
+
+ARTICLE 1 - OBJET DU CONTRAT ET MISSIONS DU PRESTATAIRE
+Le présent Contrat a pour objet la réalisation de prestations de Programmation informatique, telles
+que définies ci-dessous :
+●​ Développement d'applications web & mobile
+(ci-après la "Mission")
+
+ARTICLE 2 - MODALITÉS DE RÉALISATION DE LA MISSION
+2.1. Le Prestataire s'engage envers le Client à réaliser la Mission telle que définie à l'Article 1 du
+présent Contrat, avec le plus grand professionnalisme, à respecter les dispositions légales et
+réglementaires applicables et à se conformer aux normes et procédures applicables.
+Le Prestataire s’engage à mobiliser les moyens techniques nécessaires à l’exécution de la Mission
+qu’il s’engage ainsi à fournir, étant convenu en tant que de besoin que le Prestataire sera seul maître
+de la définition des moyens affectés à l’exécution de la Mission sans que le Client ne puisse interférer
+de quelque manière que ce soit dans ce choix.
+2.2. Le Client s’engage à coopérer pleinement avec le Prestataire en vue de faciliter au mieux les
+conditions d'intervention du Prestataire et la bonne exécution des présentes et, à cet effet, notamment
+:
+●​ ne rien faire ou laisser faire qui puisse être de nature à empêcher l’exécution par le
+Prestataire de la Mission ou à la rendre plus difficile ou onéreuse, sous réserve de la
+protection légitime par le Client de ses intérêts ;
+●​ transmettre en temps utile au Prestataire l’ensemble des informations nécessaires à
+l’exécution par ce dernier de sa Mission dans les meilleurs conditions ;
+●​ informer en temps utile le Prestataire de toute décision, tout élément et toute précision
+susceptibles d’avoir un impact sur la Mission.
+
+ARTICLE 3 - REPORTING
+Le Prestataire s'engage à informer le Client du déroulement de la Mission par reporting effectué selon
+les modalités suivantes : Un rapport quotidien doit être réalisé.
+
+ARTICLE 4 - PROPRIÉTÉ DES RÉSULTATS
+Les résultats de la Mission seront en la pleine maîtrise du Client, à compter du paiement intégral de la
+prestation à échéance et le Client pourra en disposer comme il l'entend. Le Prestataire, pour sa part,
+s'interdit de faire état des résultats dont il s'agit et de les utiliser de quelque manière, sauf à obtenir
+préalablement l'autorisation écrite du Client (étant précisé en tant que de besoin que cette stipulation
+n'interdit pas au prestataire d'utiliser librement son propre savoir-faire).
+La propriété de toute oeuvre réalisée en application du présent Contrat au titre de la Mission,
+spécifiées par le Client (n'étant donc pas une oeuvre individuelle) est attribuée au Client. A cette fin,
+et en tant que de besoin, le Prestataire transfère au Client tous les droits sur l'œuvre précitée : droit
+de reproduction, droit de représentation, droit de commercialisation, droit d'usage, de détention,
+d'adaptation, de traduction, et plus généralement, tous droits d'exploitation.
+La présente cession vaut pour tous territoires et pour toute la durée de protection dont l'œuvre fait
+l'objet. Le Prestataire s'interdit pour l'avenir tout fait d'exploitation de l'œuvre précitée. De convention
+expresse, le Client acquiert la propriété de l'œuvre dont il s'agit, au fur et à mesure de son
+élaboration.
+
+ARTICLE 5 - INFORMATION PRÉCONTRACTUELLE
+Le Prestataire s'est renseigné sur les besoins du Client et a, avant la conclusion du Contrat, mis le
+Client en mesure de connaître les caractéristiques essentielles du service au titre de la Mission, ce
+que le Client reconnaît.
+Il a également apporté les conseils nécessaires au Client pour l'appréciation de l'utilité de la
+prestation au titre de la Mission.
+
+ARTICLE 6 - DURÉE DU CONTRAT - DÉLAI DE RÉALISATION DE LA MISSION
+Le Contrat prend effet à compter du 15/04/2025 pour une durée indéterminée.
+Le Prestataire s'engage à ce que la prestation de services au titre de la Mission soit accomplie selon
+le calendrier suivant :
+Une date de livraison pour chaque prestation..
+
+ARTICLE 7 - RÉSILIATION DU CONTRAT
+Le Contrat pourra être résilié unilatéralement par l'une ou l'autre des Parties, sous réserve du respect
+d'un délai de préavis de 60 jours et sans préjudice d'éventuelles obligations de paiement au titre de
+prestations dans le cadre de la Mission qui seraient déjà accomplies.
+Sans préjudice de la responsabilité de l'une ou l'autre des Parties en cas d'exécution défectueuse du
+Contrat, il est expressément convenu qu'aucune indemnité de part ou d'autre ne sera due du seul fait
+de la cessation du Contrat.
+
+ARTICLE 8 - RÉMUNÉRATION DU PRESTATAIRE ET PAIEMENT DE LA
+RÉMUNÉRATION
+En contrepartie de la réalisation des prestations au titre de la Mission, le Prestataire aura droit à une
+rémunération calculée comme suit :
+Rémunération taux mensuel : 350€ par mois (soit minimum 35h de travail par semaine).
+Une augmentation sera possible après 3 ou 6 mois de travail selon le niveau. ​
+Tout paiement donnera lieu à une facture à en-tête établie par le Prestataire comportant l'ensemble
+des indications légales en vigueur.
+Le paiement de la rémunération interviendra selon le calendrier suivant :
+Tous les 10 du mois et maximum 15 jours ouvrés après cette date..
+Le paiement par le Client de la prestation au titre de la Mission s'effectuera par le(s) moyen(s) de
+paiement suivant(s) :
+Virement bancaire.
+
+Le Prestataire aura par ailleurs droit, en même temps que sa rémunération, au remboursement des
+frais exposés dans le cadre de l’exercice de la Mission préalablement validés par le Client et sur
+production des justificatifs correspondants.
+
+ARTICLE 9 - INTUITU PERSONAE - SOUS-TRAITANCE
+Le Contrat ne peut pas faire l'objet d'une cession totale ou partielle par une Partie (y compris en cas
+de fusion ou d'opération assimilable), à titre onéreux ou gracieux, sans l'accord préalable et écrit de
+l'autre Partie.
+Le Prestataire n'aura pas la possibilité de sous-traiter tout ou partie de sa Mission sans l'accord
+préalable et écrit du Client. Sauf accord exprès du Client en ce sens, aucune sous-traitance de tout
+ou partie de la Mission autorisée par le Client ne pourra avoir pour effet de décharger le Prestataire
+de ses obligations et/ou de sa responsabilité au titre du Contrat.
+
+ARTICLE 10 - DÉCLARATION D'INDÉPENDANCE RÉCIPROQUE
+La relation établie entre le Client et le Prestataire est celle d'entreprises indépendantes et autonomes.
+Aucune clause du Contrat ne pourra être interprétée comme donnant à l'une des Parties le pouvoir de
+diriger les activités de l'autre Partie ni de contrôler l’autre d’une manière ou d’une autre. Le Contrat
+vise exclusivement l'objet défini en son Article 1 et ne contient aucune forme ni intention de constituer
+une société de droit ou de fait, les Parties étant dépourvues d'affectio societatis. Le Prestataire pourra
+s’organiser librement dans l’exécution du Contrat, dans la mesure où il n’existe entre les Parties
+aucun lien de subordination mais uniquement un lien contractuel de nature commerciale.
+Aucune des Parties ne pourra, en outre, sauf mandat particulier, écrit, exprès et préalable de l’autre
+Partie, être considérée comme représentant de l’autre Partie, et ce à quelque titre et sous quelque
+modalité que ce soit.
+Il est expressément convenu que le Contrat est spécifique et qu’aucune de ses stipulations ne peut
+amener à des revendications autres que celles découlant des obligations expressément prévues dans
+le Contrat.
+Le présent Contrat n’habilite en aucun cas le Prestataire à engager le Client vis-à-vis de quiconque
+dans la mesure où il ne comporte aucun mandat.
+Il est enfin précisé en tant que de besoin que le Client sera libre de suivre ou non toutes
+préconisations éventuelles du Prestataire.
+
+ARTICLE 11 - DÉCLARATIONS DES PARTIES
+Chacune des Parties déclare :
+●​ avoir la pleine capacité juridique,
+●​ que rien ne s'oppose à la conclusion du Contrat.
+●​ exercer ses activités en conformité avec la règlementation qui lui est applicable,
+●​ que la conclusion du Contrat ne contrevient à aucune obligation légale règlementaire,
+professionnelle ou contractuelle qui la lie.
+
+Le Client déclare :
+●​ exister valablement et régulièrement au regard du droit auquel il est soumis,
+●​ que la personne qui signe le Contrat en son nom a tout pouvoir à cet effet et que ce Contrat
+lui est valablement et régulièrement opposable.
+
+ARTICLE 12 - TRAVAIL DISSIMULÉ
+12.1. En application de la loi sur le travail illégal et de ses décrets d'application, le Prestataire certifie
+que dans l’hypothèse où il recourrait pour l’exécution des présentes à un ou plusieurs salariés ou à un
+ou plusieurs prestataires, les prestations objet du Contrat seront réalisées par des salariés
+régulièrement embauchés ou des prestataires intervenant de manière valable et régulière.
+12.2. En outre, dans l’hypothèse où le Prestataire recourrait à des salariés pour l’exécution du
+Contrat, ce dernier s’engage à compter de leur embauche et tous les six (6) mois jusqu'à la fin de
+l’exécution du Contrat, à communiquer au Client tous les documents requis au titre de l'article D.
+8222-5 du Code du travail et notamment :
+●​ une attestation de fourniture de déclarations sociales émanant de l'organisme de protection
+sociale chargé du recouvrement des cotisations lui incombant et datant de moins de six (6)
+mois ;
+●​ une attestation sur l'honneur du dépôt auprès de l'administration fiscale, à la date de
+l'attestation, de l'ensemble des déclarations fiscales obligatoires ;
+●​ un extrait de l'inscription du Prestataire au registre du commerce et des sociétés ;
+●​ une attestation sur l'honneur de la réalisation du travail par des salariés employés
+régulièrement au regard des articles L.1221-10 et suivants, L.3243-1 et suivants et R.3243-3
+et suivants du Code du travail.
+
+ARTICLE 13 - RESPONSABILITÉ
+Chacune des Parties sera responsable de la bonne exécution des obligations qui lui incombent aux
+termes des présentes. Le Prestataire restera par ailleurs seul responsable du fait de ses préposés le
+cas échéant.
+Le Prestataire ne sera responsable que des dommages directs causés au client résultant de ses
+fautes ou de sa négligence (à l'exclusion de tout cas de force majeure ou de l'usage par le Client du
+service non conforme aux préconisations du Prestataire).
+Chacune des Parties s’engage en conséquence à prévenir l’autre sans délai de tout retard ou de tout
+manquement dans l’exécution du Contrat ou des missions prévues au Contrat qu’elle identifierait, de
+façon à éviter la survenance d’un préjudice pour quiconque.
+
+ARTICLE 14 - EXCLUSION DE GARANTIE
+Le Prestataire exclut toute garantie autre que les garanties légales prévues par le droit en vigueur
+applicables à la prestation de services au titre du Contrat.
+
+La garantie légale applicable ne pourra pas jouer en cas de non paiement par le Client des
+prestations au titre du Contrat.
+
+ARTICLE 15 - OBLIGATION DE CONFIDENTIALITÉ
+Le Prestataire s'engage à considérer comme confidentielles et à ne pas utiliser ni communiquer, sauf
+pour les besoins de l’exécution du Contrat, toute information, qu’elle soit de nature commerciale,
+stratégique, opérationnelle, financière, juridique, organisationnelle, comptable, fiscale, administrative
+ou autre, relative au Client, à l’activité du Client, ses réalisations et projets et aux opérations et
+projets, objets de la Mission, qu’elle ait été transmise oralement, par écrit ou sous forme électronique
+par le Client ou à laquelle le Prestataire a eu accès dans le cadre ou à l’occasion du Contrat.
+Les obligations susvisées au présent article seront valable pendant la durée du Contrat et persisteront
+même après l’extinction du Contrat, quelle qu’en soit la cause, et ce pour une durée de 99 ans à
+compter de l’extinction du Contrat.
+Au terme du Contrat, le Prestataire remettra au Client toutes les données, informations, bases de
+données, quels qu’en soient les supports, relatives à la Mission, confiées par le Client.
+
+ARTICLE 16 - DISPOSITIONS GÉNÉRALES
+16.1. BONNE FOI ET COOPÉRATION
+Les Parties s'engagent à toujours se comporter l'une envers l'autre comme des partenaires loyaux et
+de bonne foi et notamment à s'informer mutuellement de toute difficulté qu'elles pourraient rencontrer
+à l'occasion de l'exécution du Contrat ainsi qu’à coopérer à la bonne exécution du Contrat.
+
+16.2. MODIFICATION DU CONTRAT
+Aucun document postérieur, aucune modification du Contrat quelle qu'en soit la forme ne produira
+d'effet entre les Parties sans prendre la forme d'un avenant dûment daté et signé par elles.
+
+16.3. NULLITÉ
+Si l'une quelconque des stipulations du Contrat s'avérait nulle au regard d'une règle de droit en
+vigueur ou d'une décision judiciaire devenue définitive, elle serait alors réputée non écrite, sans pour
+autant entraîner la nullité du Contrat ni altérer la validité de ses autres stipulations.
+
+16.4. RENONCIATION
+Toute renonciation, quelle qu’en soit la durée, à invoquer l’existence ou la violation totale ou partielle
+d’une quelconque des clauses du Contrat ne peut constituer une modification, une suppression de
+ladite clause ou une renonciation à invoquer les validations antérieures, concomitantes ou
+postérieures de la même clause ou d’autres clauses. Une telle renonciation n’aura effet que si elle est
+exprimée par un écrit signé par la personne dûment habilitée à cet effet.
+
+16.5. DOMICILIATION
+Pour l'exécution de l'ensemble du Contrat et de ses suites, le Bénéficiaire et le Prestataire font
+élection de domicile en leurs adresses telles que mentionnées dans leurs comparutions ci-avant.
+Tout changement de domicile et toute notification au titre du Contrat par l’une des Parties ne sera
+opposable à l’autre que si elle est faite (i) par lettre recommandée avec accusé de réception ou (ii)
+par courrier remis en main propre contre reçu, étant précisé que toute notification sera présumée
+avoir été reçue dans le premier cas à la date de première présentation de ladite lettre à l’adresse de
+la Partie concernée et dans le second cas à la date de remise en main propre.
+
+16.6. DROIT APPLICABLE - RÈGLEMENT DES DIFFÉRENDS
+Le Contrat est soumis au droit français.
+Les différends qui surviendraient entre les Parties relatifs à la conclusion, l'exécution ou
+l'interprétation du Contrat seront soumis aux tribunaux compétents.
+Fait à Corbeil essonnes 91100 FRANCE en deux exemplaires originaux,
+Le 14/04/2025
+
+______________________
+Le Client
+Nom et signature
+
+______________________
+Le Prestataire
+Nom et signature TATA Vahiny Didier Eugène
+Paraphez chaque page du contrat
