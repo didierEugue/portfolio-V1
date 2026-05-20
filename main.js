@@ -70,7 +70,7 @@
     // Typed.js
     if (typeof Typed !== 'undefined' && document.querySelector('.multiple-text')) {
         new Typed('.multiple-text', {
-            strings: ['Développeur Symfony', 'Développeur API REST', 'Développeur Backend'],
+            strings: ['Développeur Symfony', 'Développeur API REST', 'Architecte SaaS', 'Développeur Full-Stack'],
             typeSpeed: 50,
             backSpeed: 50,
             backDelay: 1000,
