@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /file/
+
+Sitemap: https://didier@nexilimits.comsitemap.xml

@@ -1,187 +1,656 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+
+    <!-- SEO principal -->
+    <title>Didier Eugène — Développeur PHP Symfony 7 · Full-Stack React | Remote France</title>
+    <meta name="description" content="Développeur PHP Symfony spécialisé API REST et SaaS multi-tenant. 14 projets livrés : ERP, e-commerce, plateformes métier. Symfony 7, React 19, Next.js 16, TypeScript. Disponible remote pour équipes françaises.">
+    <meta name="author" content="Didier Eugène">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://VOTRE_URL">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://VOTRE_URL">
+    <meta property="og:title" content="Didier Eugène — Développeur PHP Symfony 7 · Full-Stack React">
+    <meta property="og:description" content="Développeur PHP Symfony spécialisé API REST et SaaS multi-tenant. 14 projets livrés. Symfony 7, React 19, Next.js 16, TypeScript. Remote France.">
+    <meta property="og:image" content="https://didier@nexilimits.comimages/og-cover.png">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:site_name" content="Portfolio Didier Eugène">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Didier Eugène — Développeur PHP Symfony 7 · Full-Stack React">
+    <meta name="twitter:description" content="Développeur PHP Symfony spécialisé API REST et SaaS multi-tenant. 14 projets livrés. Symfony 7, React 19, Next.js 16. Remote France.">
+    <meta name="twitter:image" content="https://didier@nexilimits.comimages/og-cover.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/nexilimits.png" type="image/png">
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="preload" href="images/img-.png" as="image">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Données structurées JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Didier Eugène",
+      "jobTitle": "Développeur PHP Symfony · Full-Stack React",
+      "description": "Développeur PHP Symfony spécialisé API REST et SaaS multi-tenant. 14 projets livrés pour des équipes françaises en remote depuis Madagascar.",
+      "url": "https://VOTRE_URL",
+      "email": "didiereugene789@gmail.com",
+      "telephone": "+261324363841",
+      "sameAs": [
+        "https://www.linkedin.com/in/didier-eugene",
+        "https://github.com/didierEugue"
+      ],
+      "knowsAbout": [
+        "PHP 8.2", "Symfony 7", "API REST", "API Platform", "SaaS multi-tenant",
+        "React 19", "Next.js 16", "TypeScript", "Node.js", "Docker",
+        "MySQL", "MongoDB", "PostgreSQL", "JWT", "Stripe", "DocuSeal"
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Master Professionnel en Informatique",
+        "recognizedBy": {
+          "@type": "EducationalOrganization",
+          "name": "École Nationale d'Informatique (ENI) de Fianarantsoa"
+        }
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "École Nationale d'Informatique (ENI) de Fianarantsoa"
+      }
+    }
+    </script>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+    <a href="#main-content" class="skip-link">Aller au contenu principal</a>
 
-        <img src="images/menu.svg" alt="" id="menu-icon">
-
-        <nav class="navbar">
-            <a href="#home" class="active">Accueil</a>
-            <a href="#about">A propos</a>
-            <a href="#services">Mes services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <header class="header" role="banner">
+        <div class="header-inner">
+            <a href="#" class="logo" aria-label="Accueil"><img src="images/nexilimits.png" alt="Logo" class="logo-img"></a>
+            <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Ouvrir le menu">
+                <span class="menu-toggle-bar"></span>
+                <span class="menu-toggle-bar"></span>
+                <span class="menu-toggle-bar"></span>
+            </button>
+            <nav class="navbar navbar-desktop" role="navigation" aria-label="Navigation principale">
+                <ul class="nav-list">
+                    <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                    <li><a href="#apropos" class="nav-link">À propos</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li><a href="#formation" class="nav-link">Formation</a></li>
+                    <li><a href="#contact" class="nav-link nav-link--cta">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- body section -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Bonjour, Je m'appelle</h3>
-            <h1>Didier Eugène</h1>
-            <h3>Et je suis un <span class="multiple-text"></span></h3>
-            <p>Développeur web depuis quelques années. J’ai développé certaines compétences dans ce domaine surtout dans le Backend. Actuellement je suis à la recherche d’opportunité pour améliorer mes compétences en développement web.</p>
-            
-            <div class="social-media">
-                <a href="#"><img src="images/logo-facebook.svg"></a>
-                <a href="#"><img src="images/logo-instagram.svg"></a>
-                <a href="#"><img src="images/logo-linkedin.svg"></a>
-                <a href="#"><img src="images/logo-skype.svg"></a>
-                <a href="#"><img src="images/logo-whatsapp.svg"></a>
-                <a href="#"><img src="images/mail-outline.svg"></a>
-            </div>
-            <a href="file/CV-Didier.pdf" class="btn">Télécharger mon CV</a>
-        </div>
+    <div class="nav-mobile" id="nav-mobile" aria-hidden="true">
+        <div class="nav-mobile-backdrop" id="nav-overlay"></div>
+        <nav class="nav-mobile-panel" role="navigation" aria-label="Menu mobile">
+            <ul class="nav-mobile-list">
+                <li><a href="#accueil" class="nav-mobile-link">Accueil</a></li>
+                <li><a href="#apropos" class="nav-mobile-link">À propos</a></li>
+                <li><a href="#services" class="nav-mobile-link">Services</a></li>
+                <li><a href="#projets" class="nav-mobile-link">Projets</a></li>
+                <li><a href="#competences" class="nav-mobile-link">Compétences</a></li>
+                <li><a href="#formation" class="nav-mobile-link">Formation</a></li>
+                <li><a href="#contact" class="nav-mobile-link nav-mobile-link--cta">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
-        <div class="home-img">
-            <img src="images/img-.png" alt="">
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/img 3.png" alt="">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">A propos de <span>Moi</span></h2>
-            <h3>Développeur Fullstack</h3>
-            <p style="text-align: justify;">Développeur backend passionné par la création d'applications web performantes. Spécialisé en PHP Symfony, j'associe
-            également Vue.js pour des interfaces conviviales. Toujours à jour avec les dernières technologies, je suis motivé par la
-            résolution de problèmes complexes et prêt à relever de nouveaux défis pour contribuer au succès de projets innovants.</p>
-            <a href="" class="btn">Lire plus ...</a>
-        </div>
-    </section>
-
-    <section class="services" id="services">
-        <h2 class="heading">Mes <span>Services</span></h2>
-
-        <div class="services-container">
-            <div class="services-box">
-                <img src="images/front-end.ico" alt="">
-                <h3>Développement Frontend <br><span>VueJS 3</span></h3>
-                <p>Développeur frontend spécialisé en Vue.js, je crée des interfaces intuitives et modernes pour une expérience utilisateur optimale. Mon objectif est d'assurer une parfaite complémentarité entre le frontend et le backend pour des applications performantes.</p>
-                <!-- <a href="" class="btn">Lire plus ...</a> -->
-            </div>
-
-            <div class="services-box">
-                <img src="images/noun-backend-6394369.ico" alt="">
-                <h3>Développement Backend <br> <span>PHP Symfony</span></h3>
-                <p>En tant que développeur backend, je me spécialise dans la création de solutions robustes avec PHP Symfony. Mon expertise vise à assurer des performances optimales, garantissant une parfaite synergie entre le backend et le frontend pour des applications efficaces.</p>
-                <!-- <a href="" class="btn">Lire plus ...</a> -->
-            </div>
-
-            <div class="services-box">
-                <img src="images/scraping.ico" alt="">
-                <h3>Data Scraper <br> <span>Octoparse</span></h3>
-                <!--<p>En tant que data scraper, je me concentre sur l'extraction précise d'informations à partir de diverses sources en ligne, parallèlement à mon expertise en développement backend avec PHP Symfony. Mon engagement est de garantir la collecte automatisée de données de manière efficace et fiable, contribuant ainsi à enrichir les projets avec des informations pertinentes pour un développement backend optimal.</p>-->
-                <p>En tant que data scraper, je maîtrise l'extraction précise d'informations en ligne. Spécialisé dans la collecte
-                automatisée de données, mon objectif est d'enrichir les projets avec des informations pertinentes, assurant une
-                intégration fluide avec les solutions backend pour des résultats performants.</p>
-                <!-- <a href="" class="btn">Lire plus ...</a> -->
-            </div>
-        </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-        <h2 class="heading">Latest <span>Project</span></h2>
-
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="images/projet 1.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Triump Shop</h4>
-                    <p>C'est un site e-commerce pour la vente des articles vestimentaires <br><span style="color: white; font-weight: bolder; font-size: 40px;">PHP</span></p>
-                    <a href="#"><img class="link" src="images/link.svg" alt="->"></a>
+    <main id="main-content">
+        <section class="hero" id="accueil" aria-labelledby="hero-title">
+            <div class="hero-inner">
+                <div class="hero-content">
+                    <span class="hero-badge">Disponible — Remote</span>
+                    <p class="hero-label">Bonjour, je suis</p>
+                    <h1 id="hero-title" class="hero-title">Didier <span class="hero-title-accent">Eugène</span></h1>
+                    <p class="hero-subtitle">Je suis <span class="typed-wrap"><span class="multiple-text" aria-live="polite"></span></span></p>
+                    <p class="hero-desc">
+                        Je conçois des API REST robustes et des applications SaaS multi-tenant pour des entreprises qui veulent digitaliser leurs processus métier. Symfony 7, Next.js, React — de la base de données jusqu'au déploiement. 14 projets livrés, dont des missions remote pour des équipes françaises.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="file/CV-Didier.pdf" class="btn btn-primary" download>Télécharger mon CV</a>
+                        <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                    <div class="hero-stats" aria-label="Chiffres clés">
+                        <div class="hero-stat">
+                            <span class="hero-stat-value">14+</span>
+                            <span class="hero-stat-label">projets livrés</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-value">3 ans</span>
+                            <span class="hero-stat-label">d'expérience</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-value">8+</span>
+                            <span class="hero-stat-label">APIs intégrées</span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-value">1M+</span>
+                            <span class="hero-stat-label">enreg. migrés</span>
+                        </div>
+                    </div>
+                    <div class="hero-social" role="list">
+                        <a href="https://www.linkedin.com/in/didier-eugene" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="LinkedIn"><img src="images/logo-linkedin.svg" alt="" width="20" height="20"></a>
+                        <a href="https://github.com/didierEugue" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+                        <a href="https://wa.me/261324363841" target="_blank" rel="noopener noreferrer" class="hero-social-link" aria-label="WhatsApp"><img src="images/logo-whatsapp.svg" alt="" width="20" height="20"></a>
+                        <a href="mailto:didiereugene789@gmail.com" class="hero-social-link" aria-label="Email"><img src="images/mail-outline.svg" alt="" width="20" height="20"></a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-image-wrap">
+                        <img src="images/img-.png" alt="Didier Eugène, développeur PHP Symfony Full-Stack" class="hero-image" width="400" height="400" decoding="async">
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="images/projet 2.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>Transition Numérique</h4>
-                    <p>Un site pour la commande de projet sur mésure <br><span style="color: white; font-weight: bolder; font-size: 40px;">PHP</span></p>
-                    <a href="#"><img class="link" src="images/link.svg" alt="->"></a>
+        <section class="section section--alt" id="apropos" aria-labelledby="section-apropos-title">
+            <div class="container">
+                <div class="section-grid section-grid--about">
+                    <div class="about-visual">
+                        <img src="images/img 3.png" alt="Didier Eugène développeur backend Symfony et React" width="480" height="480" decoding="async" class="about-image">
+                    </div>
+                    <div class="about-content">
+                        <p class="section-label">À propos</p>
+                        <h2 id="section-apropos-title" class="section-title">Développeur <span class="text-accent">Backend & Full-Stack</span></h2>
+                        <p class="about-text">
+                            Développeur PHP/Symfony depuis 2022 — d'abord sur des projets locaux à Antananarivo, puis en remote pour des équipes françaises depuis 2025. Applications métier complexes : SaaS multi-tenant, ERP, plateformes e-commerce et APIs d'intégration. <strong>Master Professionnel en Informatique</strong> (ENI Fianarantsoa).
+                        </p>
+                        <p class="about-text">
+                            J'ai livré <strong>14 projets</strong> en production — migration de <strong>1M+ enregistrements</strong> PrestaShop, architectures multi-tenant isolées (Symfony 7 + JWT), intégration de <strong>8+ APIs tierces</strong> (Stripe, DocuSeal, Google Calendar, Pennylane, Mistral AI…). Clean code, PHPUnit, déploiement Docker.
+                        </p>
+                        <div class="about-stats" aria-label="Chiffres clés">
+                            <div class="about-stat">
+                                <span class="about-stat-value">14+</span>
+                                <span class="about-stat-label">Projets livrés</span>
+                            </div>
+                            <div class="about-stat">
+                                <span class="about-stat-value">8+</span>
+                                <span class="about-stat-label">APIs intégrées</span>
+                            </div>
+                            <div class="about-stat">
+                                <span class="about-stat-value">1M+</span>
+                                <span class="about-stat-label">Enreg. migrés</span>
+                            </div>
+                            <div class="about-stat">
+                                <span class="about-stat-value">~1 an</span>
+                                <span class="about-stat-label">En remote</span>
+                            </div>
+                        </div>
+                        <a href="#contact" class="btn btn-primary">Échanger avec moi</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="images/projet 3.png" alt="->">
-                <div class="portfolio-layer">
-                    <h4>MMFC</h4>
-                    <p>Un site pour une association sportive <br><span style="color: white; font-weight: bolder; font-size: 40px;">Symfony</span></p>
-                    <a href="#"><img class="link" src="images/link.svg" alt=""></a>
+        <section class="section" id="services" aria-labelledby="section-services-title">
+            <div class="container">
+                <p class="section-label">Services</p>
+                <h2 id="section-services-title" class="section-title section-title--center">Ce que je <span class="text-accent">propose</span></h2>
+                <div class="cards cards--four">
+                    <article class="card">
+                        <div class="card-icon">
+                            <img src="images/front-end.ico" alt="" width="40" height="40">
+                        </div>
+                        <h3 class="card-title">Frontend <span class="card-title-tech">React · Next.js · TypeScript</span></h3>
+                        <p class="card-text">Interfaces modernes avec React 18/19, Next.js 15/16 et TypeScript pour PWA et applications métiers. E-commerce, ERP et plateformes SaaS livrés en production, connectés à des API REST.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <img src="images/noun-backend-6394369.ico" alt="" width="40" height="40">
+                        </div>
+                        <h3 class="card-title">Backend & API REST <span class="card-title-tech">Symfony 7 · API Platform</span></h3>
+                        <p class="card-text">API REST sécurisées (JWT, Voters Symfony), architecture multi-tenant avec isolation automatique des données par client. 14+ projets en production. Clean code, PHPUnit, déploiement Docker.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <img src="images/integration.ico" alt="" width="40" height="40">
+                        </div>
+                        <h3 class="card-title">Intégration APIs & Automatisation <span class="card-title-tech">APIs tierces · Messenger</span></h3>
+                        <p class="card-text">Intégration d'APIs tierces (Stripe, DocuSeal, Pennylane, Google Calendar, AirCall, INPI, Mistral AI). Traitements asynchrones Symfony Messenger, workflows automatisés, imports Excel et rapports.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">
+                            <img src="images/migration.ico" alt="" width="40" height="40">
+                        </div>
+                        <h3 class="card-title">Migration & Refonte <span class="card-title-tech">Legacy → Moderne</span></h3>
+                        <p class="card-text">Migration de systèmes legacy vers des technologies modernes : PrestaShop → React (8 538 clients préservés, -60% temps de requête), MySQL → MongoDB, Node.js → Symfony 7. Continuité de service garantie.</p>
+                    </article>
                 </div>
             </div>
-<!--
-            <div class="portfolio-box">
-                <img src="images/" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, corporis ratione, repellat voluptates numquam doloremque aliquid dolor rerum blanditiis tempora saepe quia! Totam illo inventore est nostrum recusandae dolorem. Quae?</p>
-                    <a href="#"><img class="link" src="images/link.svg" alt=""></a>
+        </section>
+
+        <section class="section section--alt" id="projets" aria-labelledby="section-projets-title">
+            <div class="container">
+                <p class="section-label">Projets</p>
+                <h2 id="section-projets-title" class="section-title section-title--center">Réalisations <span class="text-accent">récentes</span></h2>
+                <div class="portfolio-grid">
+                    <article class="project-card" data-project-id="sekologia">
+                        <div class="project-card-image">
+                            <img src="images/sekologia_1.png" alt="Sekologia – plateforme LMS multi-tenant pour établissements scolaires de Madagascar, React TypeScript" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">React · TypeScript</span>
+                                <p class="project-desc">Plateforme de gestion scolaire multi-établissements pour écoles de Madagascar. Cours, notes, présences, 9 profils utilisateurs.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="sekologia" aria-label="Voir les détails du projet Sekologia">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Sekologia</h3>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-id="athena-oi">
+                        <div class="project-card-image">
+                            <img src="images/athena_new_1.png" alt="Athéna OI – ERP PWA pour prestataire de gestion immobilière, Symfony 7 React" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 7 · React</span>
+                                <p class="project-desc">ERP PWA pour prestataire immobilier. API Platform, React Vite TypeScript, rôles et menus personnalisés, messagerie, agenda, optimisation BDD.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="athena-oi" aria-label="Voir les détails du projet Athéna OI">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Athéna OI</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="infinitia">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony · API</span>
+                                <p class="project-desc">Plateforme concessions automobiles, RDV et Google Calendar. Projet confidentiel.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="infinitia" aria-label="Voir les détails du projet Concessions auto et prise de RDV">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Concessions auto & prise de RDV</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="smth">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony · API · IA</span>
+                                <p class="project-desc">Plateforme d'apprentissage communautaire, Academy, chatbot IA. Projet confidentiel.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="smth" aria-label="Voir les détails du projet Academy et réseau communautaire">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Academy & réseau communautaire</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="be-prof">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 7</span>
+                                <p class="project-desc">Plateforme SaaS éducation en ligne (enseignants / étudiants). Projet confidentiel.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="be-prof" aria-label="Voir les détails du projet SaaS Éducation en ligne">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">SaaS Éducation en ligne</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="actif-diag">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 7</span>
+                                <p class="project-desc">API interventions techniques et diagnostics immobiliers. Projet confidentiel.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="actif-diag" aria-label="Voir les détails du projet API Diagnostics et interventions">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">API Diagnostics & interventions</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="sofyx">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 7</span>
+                                <p class="project-desc">API gestion comptable et juridique pour cabinet d'expertise. Projet confidentiel.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="sofyx" aria-label="Voir les détails du projet Gestion comptable et juridique">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Gestion comptable & juridique</h3>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-id="bourbon-palto">
+                        <div class="project-card-image">
+                            <img src="images/boubon_palto_1.png" alt="Bourbon Palto – site e-commerce mode réunionnaise, migration PrestaShop vers React, 8 538 clients migrés" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">React · E-Commerce</span>
+                                <p class="project-desc">Refonte du site e-commerce d'une boutique de mode réunionnaise. Migration de 8 538 clients et 45 000+ commandes depuis l'ancien système.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="bourbon-palto" aria-label="Voir les détails du projet Bourbon Palto">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Boutique en ligne — Mode réunionnaise</h3>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-id="lina-market">
+                        <div class="project-card-image">
+                            <img src="images/lina_market_1.png" alt="ERP Lina Market – gestion multi-sites pour réseau de distribution, Node.js MongoDB" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Node.js · MongoDB</span>
+                                <p class="project-desc">Adaptation de l'ERP Octogone pour le réseau Lina Market avec migration complète de l'ancien système vers une solution moderne.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="lina-market" aria-label="Voir les détails du projet Lina Market">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">ERP multi-sites — Lina Market</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="gexp">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 6 · Next.js</span>
+                                <p class="project-desc">Application de gestion des dossiers d'expertise technique : devis, signature électronique, intervention, facturation automatique.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="gexp" aria-label="Voir les détails du projet GEXP">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Gestion des dossiers d'expertise</h3>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-id="backoffice-supreme">
+                        <div class="project-card-image">
+                            <img src="images/site_vitrine_1.png" alt="Backoffice Supreme – SaaS constructeur de sites vitrines clé en main, Symfony 7 Next.js" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 7 · Next.js</span>
+                                <p class="project-desc">Plateforme SaaS permettant de créer et gérer des sites vitrines clé en main pour professionnels, sans compétences techniques.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="backoffice-supreme" aria-label="Voir les détails du projet Backoffice Supreme">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Créateur de sites vitrines</h3>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-id="octogone">
+                        <div class="project-card-image">
+                            <img src="images/sox0.png" alt="Octogone ERP – logiciel de gestion complet pour réseaux de magasins et dépôts, Node.js React MongoDB" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Node.js · React · MongoDB</span>
+                                <p class="project-desc">Logiciel complet de gestion pour réseaux de magasins et dépôts. Stocks, achats, ventes, caisse certifiée, tableau de bord, PWA mobile.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="octogone" aria-label="Voir les détails du projet ERP Octogone">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">ERP pour réseaux de magasins</h3>
+                        </div>
+                    </article>
+                    <article class="project-card project-card--confidential" data-project-id="athena-v5">
+                        <div class="project-card-image">
+                            <div class="project-card-confidential" aria-hidden="true">Projet confidentiel</div>
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Node.js · React · PWA</span>
+                                <p class="project-desc">Application interne de gestion de production et de chantiers pour DepannPC. Ordres de fabrication, consignes, rapports terrain, notifications push mobile.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="athena-v5" aria-label="Voir les détails du projet Athena v5">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Athena v5 — Gestion de production</h3>
+                        </div>
+                    </article>
+                    <article class="project-card" data-project-id="finance-fianarantsoa">
+                        <div class="project-card-image">
+                            <img src="images/iasa.png" alt="Finance Fianarantsoa SRRP – application de suivi et évaluation des activités, Symfony 6 React" width="400" height="280" loading="lazy">
+                            <div class="project-card-overlay">
+                                <span class="project-tag">Symfony 6 · React</span>
+                                <p class="project-desc">Application de suivi et d'évaluation des activités. API Platform, Ozeki SMS, MailJet, import Excel, synchronisation mail/SMS.</p>
+                                <button type="button" class="project-link project-link-btn" data-project-id="finance-fianarantsoa" aria-label="Voir les détails du projet Finance Fianarantsoa">Voir le projet</button>
+                            </div>
+                        </div>
+                        <div class="project-card-body">
+                            <h3 class="project-card-title">Finance Fianarantsoa SRRP</h3>
+                        </div>
+                    </article>
                 </div>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="images/" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, corporis ratione, repellat voluptates numquam doloremque aliquid dolor rerum blanditiis tempora saepe quia! Totam illo inventore est nostrum recusandae dolorem. Quae?</p>
-                    <a href="#"><img class="link" src="images/link.svg" alt=""></a>
+        <section class="section" id="competences" aria-labelledby="section-competences-title">
+            <div class="container">
+                <p class="section-label">Compétences</p>
+                <h2 id="section-competences-title" class="section-title section-title--center">Stack & <span class="text-accent">outils</span></h2>
+                <div class="skills-grid">
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">Backend</h3>
+                        <ul class="skills-tags">
+                            <li>PHP 8.2</li>
+                            <li>Symfony 5 · 6 · 7</li>
+                            <li>API Platform</li>
+                            <li>Node.js 18</li>
+                            <li>Express.js</li>
+                            <li>Symfony Messenger</li>
+                            <li>PHPUnit</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">Frontend</h3>
+                        <ul class="skills-tags">
+                            <li>React 18 · 19</li>
+                            <li>Next.js 15 · 16</li>
+                            <li>TypeScript</li>
+                            <li>Vite</li>
+                            <li>Tailwind CSS</li>
+                            <li>Zustand · TanStack Query</li>
+                            <li>Framer Motion</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">Bases de données</h3>
+                        <ul class="skills-tags">
+                            <li>MySQL · MariaDB</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>Doctrine ORM</li>
+                            <li>Procédures stockées · Vues · Triggers</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">APIs & Intégrations</h3>
+                        <ul class="skills-tags">
+                            <li>Stripe · PayPlug</li>
+                            <li>DocuSeal</li>
+                            <li>Pennylane · MyUnisoft</li>
+                            <li>Google Calendar API</li>
+                            <li>AirCall · INPI API</li>
+                            <li>Mailgun · MailJet</li>
+                            <li>Mistral AI</li>
+                            <li>Ozeki SMS</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">Architecture & DevOps</h3>
+                        <ul class="skills-tags">
+                            <li>Docker · Docker Compose</li>
+                            <li>JWT · Lexik Bundle</li>
+                            <li>Multi-tenant SaaS</li>
+                            <li>OpenAPI 3.0</li>
+                            <li>Socket.io · WebSocket</li>
+                            <li>Nginx</li>
+                        </ul>
+                    </div>
+                    <div class="skills-group">
+                        <h3 class="skills-group-title">Outils & Workflow</h3>
+                        <ul class="skills-tags">
+                            <li>Git · GitHub</li>
+                            <li>Postman · Bruno</li>
+                            <li>Windows · Linux</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="portfolio-box">
-                <img src="images/" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, corporis ratione, repellat voluptates numquam doloremque aliquid dolor rerum blanditiis tempora saepe quia! Totam illo inventore est nostrum recusandae dolorem. Quae?</p>
-                    <a href="#"><img class="link" src="images/link.svg" alt=""></a>
+        <section class="section section--alt" id="formation" aria-labelledby="section-formation-title">
+            <div class="container">
+                <p class="section-label">Parcours</p>
+                <h2 id="section-formation-title" class="section-title section-title--center">Formation <span class="text-accent">académique</span></h2>
+                <div class="formation-timeline">
+                    <article class="formation-item">
+                        <div class="formation-period">Février 2024 – Novembre 2024</div>
+                        <h3 class="formation-diploma">Master Professionnel</h3>
+                        <p class="formation-school">École Nationale d'Informatique (ENI) — Fianarantsoa</p>
+                    </article>
+                    <article class="formation-item">
+                        <div class="formation-period">Février 2022 – Janvier 2023</div>
+                        <h3 class="formation-diploma">Licence Professionnelle</h3>
+                        <p class="formation-school">École Nationale d'Informatique (ENI) — Fianarantsoa</p>
+                    </article>
                 </div>
             </div>
-        </div>
-        -->
-    </section>
+        </section>
 
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me !</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Name">
+        <section class="section" id="langues-autres" aria-labelledby="section-langues-title">
+            <div class="container">
+                <div class="langues-autres-grid">
+                    <div class="langues-autres-block">
+                        <h2 id="section-langues-title" class="langues-autres-title">Langues</h2>
+                        <ul class="langues-list">
+                            <li><strong>Français</strong> — Courant (oral et écrit)</li>
+                            <li><strong>Anglais</strong> — Basique</li>
+                        </ul>
+                    </div>
+                    <div class="langues-autres-block">
+                        <h2 class="langues-autres-title">Centres d'intérêt</h2>
+                        <ul class="interests-list">
+                            <li>Jeux de type gestion, stratégie et simulation</li>
+                            <li>Cuisine</li>
+                            <li>Tennis</li>
+                        </ul>
+                    </div>
+                    <div class="langues-autres-block langues-autres-block--ref">
+                        <h2 class="langues-autres-title">Référence</h2>
+                        <p class="ref-name">RAKOTOARISOA Joël Mahery</p>
+                        <p class="ref-role">Lead Développeur, DepannPC</p>
+                        <a href="mailto:joel@nexilimits.com" class="ref-email">joel@nexilimits.com</a>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subscriber">
+        <section class="section section--contact" id="contact" aria-labelledby="section-contact-title">
+            <div class="container">
+                <div class="contact-inner">
+                    <div class="contact-info">
+                        <p class="section-label">Contact</p>
+                        <h2 id="section-contact-title" class="section-title">Travaillons <span class="text-accent">ensemble</span></h2>
+                        <p class="contact-intro">Une question, un projet ? N'hésitez pas à me contacter.</p>
+                        <ul class="contact-details">
+                            <li>
+                                <span class="contact-details-label">Email</span>
+                                <a href="mailto:didiereugene789@gmail.com">didiereugene789@gmail.com</a>
+                            </li>
+                            <li>
+                                <span class="contact-details-label">Téléphone</span>
+                                <a href="tel:+261324363841">+261 32 43 638 41</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="contact-form" action="#" method="post" aria-label="Formulaire de contact">
+                        <div class="form-row">
+                            <label for="contact-name" class="visually-hidden">Nom complet</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Nom complet" required autocomplete="name">
+                            <label for="contact-email" class="visually-hidden">Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="Email" required autocomplete="email">
+                        </div>
+                        <div class="form-row">
+                            <label for="contact-phone" class="visually-hidden">Téléphone</label>
+                            <input type="tel" id="contact-phone" name="phone" placeholder="Téléphone" autocomplete="tel">
+                            <label for="contact-subject" class="visually-hidden">Objet</label>
+                            <input type="text" id="contact-subject" name="subject" placeholder="Objet">
+                        </div>
+                        <label for="contact-message" class="visually-hidden">Message</label>
+                        <textarea id="contact-message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        <button type="submit" class="btn btn-primary btn--full">Envoyer le message</button>
+                    </form>
+                </div>
             </div>
+        </section>
+    </main>
 
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section>
-
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2023 by Didier | All Rights Reserved</p>
-        </div>
-
-        <div class="footer-iconTop">
-            <a href="#home"><img src="images/chevron-up-outline.svg" alt=""></a>
+    <footer class="footer" role="contentinfo">
+        <div class="footer-inner">
+            <address class="footer-address">
+                <span>Didier Eugène</span> — Développeur PHP Symfony · Remote France ·
+                <a href="mailto:didiereugene789@gmail.com">didiereugene789@gmail.com</a>
+            </address>
+            <p class="footer-copy">© 2026 Didier Eugène. Tous droits réservés.</p>
+            <a href="#accueil" class="footer-back" aria-label="Retour en haut de la page">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+            </a>
         </div>
     </footer>
 
-    <script src="scrollreveal.js"></script>
+    <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-backdrop" data-modal-close></div>
+        <div class="modal-dialog">
+            <button type="button" class="modal-close" data-modal-close aria-label="Fermer la fenêtre">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+            <div class="modal-content">
+                <div class="modal-image-wrap">
+                    <div class="modal-carousel" id="modal-carousel" aria-roledescription="carousel">
+                        <div class="modal-carousel-track" id="modal-carousel-track"></div>
+                        <button type="button" class="modal-carousel-btn modal-carousel-prev" id="modal-carousel-prev" aria-label="Image précédente" style="display: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+                        </button>
+                        <button type="button" class="modal-carousel-btn modal-carousel-next" id="modal-carousel-next" aria-label="Image suivante" style="display: none;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+                        </button>
+                        <div class="modal-carousel-dots" id="modal-carousel-dots" aria-label="Navigation du carousel"></div>
+                    </div>
+                    <span id="modal-tag" class="modal-tag"></span>
+                </div>
+                <div class="modal-body">
+                    <h2 id="modal-title" class="modal-title"></h2>
+                    <p id="modal-period" class="modal-period" aria-label="Période de développement"></p>
+                    <p id="modal-context" class="modal-context"></p>
+                    <div id="modal-description" class="modal-description"></div>
+                    <div class="modal-section modal-section--features" id="modal-features-wrap" style="display: none;">
+                        <h3 class="modal-section-title">Fonctionnalités clés</h3>
+                        <div id="modal-features" class="modal-features"></div>
+                    </div>
+                    <div class="modal-section">
+                        <h3 class="modal-section-title">Technologies & outils</h3>
+                        <ul id="modal-tech" class="modal-tech-list"></ul>
+                    </div>
+                    <div id="modal-missions" class="modal-section modal-missions"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="image-lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image en plein écran" aria-hidden="true">
+        <div class="lightbox-backdrop" data-lightbox-close></div>
+        <button type="button" class="lightbox-close" data-lightbox-close aria-label="Fermer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <img id="lightbox-image" class="lightbox-image" src="" alt="">
+    </div>
+
     <script src="typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
