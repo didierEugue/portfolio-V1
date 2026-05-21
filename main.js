@@ -84,10 +84,11 @@
             title: 'Sekologia — Plateforme de gestion scolaire',
             context: 'Système de gestion multi-établissements pour écoles de Madagascar — Projet personnel',
             period: 'Avril 2026 à ce jour',
+            image: 'images/sekologia_1.png',
             tag: 'React · TypeScript',
             description: '<p>Plateforme numérique destinée aux établissements scolaires malgaches, couvrant tous les besoins de gestion : inscriptions des élèves, emplois du temps, cours en ligne, quiz, notes, suivi des présences et communications. Chaque profil dispose de son propre espace et de ses accès.</p><ul><li>Gestion des inscriptions, classes et emplois du temps</li><li>Cours, quiz, cartes mémoire et suivi de progression</li><li>Notes, présences et bulletins par élève</li><li>9 profils utilisateurs avec accès personnalisés (admin, enseignant, élève, parent, finance...)</li><li>Interface disponible en français et en malgache</li></ul>',
             technologies: ['React 19', 'TypeScript', 'Vite 7', 'Zustand', 'TanStack Query', 'Tailwind CSS 4', 'Radix UI', 'Framer Motion', 'React Hook Form', 'Zod'],
-            images: ['images/infinitia1.png', 'images/infinitia2.png', 'images/infinitia3.png'],
+            images: ['images/sekologia_1.png', 'images/sekologia_2.png', 'images/sekologia_3.png'],
             features: [
                 { title: 'Pour les élèves et parents', items: ['Accès aux cours, quiz et notes personnels', 'Suivi de la progression et des absences', 'Interface en français et en malgache'] },
                 { title: 'Pour l\'établissement', items: ['Gestion des inscriptions, emplois du temps et classes', '9 profils utilisateurs avec accès personnalisés', 'Module financier et de paiement des frais scolaires'] }
