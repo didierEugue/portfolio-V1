@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /file/
 
-Sitemap: https://didier@nexilimits.comsitemap.xml
+Sitemap: https://didier.nexilimits.comsitemap.xml
