@@ -86,12 +86,12 @@
             period: 'Avril 2026 à ce jour',
             image: 'images/sekologia_1.png',
             tag: 'React · TypeScript',
-            description: '<p>Plateforme numérique destinée aux établissements scolaires malgaches, couvrant tous les besoins de gestion : inscriptions des élèves, emplois du temps, cours en ligne, quiz, notes, suivi des présences et communications. Chaque profil dispose de son propre espace et de ses accès.</p><ul><li>Gestion des inscriptions, classes et emplois du temps</li><li>Cours, quiz, cartes mémoire et suivi de progression</li><li>Notes, présences et bulletins par élève</li><li>9 profils utilisateurs avec accès personnalisés (admin, enseignant, élève, parent, finance...)</li><li>Interface disponible en français et en malgache</li></ul>',
-            technologies: ['React 19', 'TypeScript', 'Vite 7', 'Zustand', 'TanStack Query', 'Tailwind CSS 4', 'Radix UI', 'Framer Motion', 'React Hook Form', 'Zod'],
+            description: '<p>Plateforme numérique destinée aux établissements scolaires malgaches, couvrant tous les besoins de gestion : inscriptions des élèves, emplois du temps, cours en ligne, quiz, notes, suivi des présences et communications. Chaque profil dispose de son propre espace et de ses accès.</p><ul><li>Gestion des inscriptions, classes et emplois du temps</li><li>Cours, quiz, cartes mémoire et suivi de progression</li><li>Notes, présences et bulletins par élève</li><li>8 profils utilisateurs avec accès personnalisés (admin, enseignant, élève, parent, finance...)</li><li>Interface disponible en français et en malgache</li></ul>',
+            technologies: ['React 19', 'TypeScript', 'Vite 6', 'TanStack Query', 'Tailwind CSS 4', 'Radix UI', 'React Hook Form', 'Zod'],
             images: ['images/sekologia_1.png', 'images/sekologia_2.png', 'images/sekologia_3.png'],
             features: [
                 { title: 'Pour les élèves et parents', items: ['Accès aux cours, quiz et notes personnels', 'Suivi de la progression et des absences', 'Interface en français et en malgache'] },
-                { title: 'Pour l\'établissement', items: ['Gestion des inscriptions, emplois du temps et classes', '9 profils utilisateurs avec accès personnalisés', 'Module financier et de paiement des frais scolaires'] }
+                { title: 'Pour l\'établissement', items: ['Gestion des inscriptions, emplois du temps et classes', '8 profils utilisateurs avec accès personnalisés', 'Module financier et de paiement des frais scolaires'] }
             ]
         },
         'athena-oi': {
@@ -103,6 +103,19 @@
             tag: 'Symfony 7 · React',
             description: '<p>Refonte complète d\'Athena v5 (Node.js / MongoDB) vers une nouvelle architecture (Symfony 7 / React / MySQL) pour un prestataire immobilier. L\'objectif était de moderniser la base technique et d\'étendre les fonctionnalités à la gestion immobilière.</p><ul><li>Accès sécurisés par rôle avec menus et permissions personnalisables</li><li>Messagerie interne type Messenger entre collaborateurs</li><li>Agenda dédié à la gestion des événements et rendez-vous</li><li>Base de données optimisée (procédures stockées, vues, triggers)</li></ul>',
             technologies: ['Symfony 7', 'API Platform', 'React', 'Vite', 'TypeScript', 'MySQL', 'Postman', 'Git/Github']
+        },
+        'depannpc-vitrine': {
+            title: 'DepannPC — Site vitrine corporate',
+            context: 'Site vitrine corporate Next.js — DepannPC, La Réunion (depannpc.com)',
+            period: 'Février 2026 (1 mois)',
+            tag: 'Next.js 15 · TypeScript',
+            description: '<p>Site vitrine corporate de DepannPC, entreprise d\'expertise informatique à La Réunion (dépannage, infogérance, télécom, monétique, développement logiciel). Présente les services, les deux agences et intègre un chatbot FAQ intelligent entièrement client-side.</p><ul><li>Chatbot FAQ BM25 + TF-IDF + char n-grams — 24 entrées FAQ, 14 intents détectés, aucune dépendance LLM</li><li>PWA installable avec service worker et page offline</li><li>SEO local optimisé : landing pages Saint-Denis et Saint-Pierre, Schema.org LocalBusiness</li><li>Mode clair / sombre, animations Framer Motion, curseur personnalisé desktop</li><li>Formulaire de contact Nodemailer (Office365 SMTP)</li></ul>',
+            technologies: ['Next.js 15', 'React 19', 'TypeScript 5', 'Tailwind CSS 3', 'Framer Motion 11', 'Nodemailer', 'BM25 + TF-IDF + char n-grams', 'PWA / Service Worker', 'Docker', 'Bun'],
+            images: ['images/dpc_1.png', 'images/dpc_2.png', 'images/dpc_3.png'],
+            features: [
+                { title: 'Chatbot FAQ intelligent', items: ['Moteur de retrieval BM25 + TF-IDF + char n-grams 100% client-side', '24 entrées FAQ, 14 intents détectés (urgence, devis, horaires, tarifs...)', 'Aucune dépendance LLM, aucun coût API — plug-in point pour reranking neural'] },
+                { title: 'Performance & SEO', items: ['PWA installable, mode offline, manifest webmanifest', 'Landing pages géolocalisées Saint-Denis / Saint-Pierre', 'Schema.org LocalBusiness, OpenGraph, SSR/SSG, output standalone Docker'] }
+            ]
         },
         'infinitia': {
             title: 'Concessions auto & prise de RDV',
@@ -150,10 +163,10 @@
             title: 'API Diagnostics & interventions',
             context: 'API REST — Interventions techniques et diagnostics immobiliers — Projet confidentiel',
             period: 'Août 2025 – Septembre 2025 (2 mois)',
-            tag: 'Symfony 7.3',
+            tag: 'Symfony 7.4',
             confidential: true,
             description: '<p>API pour la gestion des interventions techniques, des diagnostics et des prestations pour des cabinets spécialisés.</p><ul><li>Commandes et suivi de statut en temps réel</li><li>Planification et assignation aux techniciens (zones, créneaux)</li><li>Portail techniciens (planning, validation, upload rapports)</li><li>Intégrations facturation et documents à signer</li></ul>',
-            technologies: ['Symfony 7.3', 'PHP 8.2+', 'MySQL/MariaDB', 'NelmioApiDocBundle', 'Vich Uploader', 'Mailgun', 'Pennylane API', 'Payplug API', 'DocuSeal API', 'Google Maps API', 'Git/Github'],
+            technologies: ['Symfony 7.4', 'PHP 8.2+', 'MySQL/MariaDB', 'NelmioApiDocBundle', 'Vich Uploader', 'Mailgun', 'Pennylane API', 'Payplug API', 'DocuSeal API', 'Google Maps API', 'Git/Github'],
             images: [],
             features: [
                 { title: 'Gestion des commandes et interventions', items: ['Commandes internes et externes, historique de statut', 'Planification, créneaux, géolocalisation'] },
@@ -192,7 +205,7 @@
             period: 'Juillet 2025 – Septembre 2025 (3 mois)',
             tag: 'React · E-Commerce',
             description: '<p>Refonte complète du site e-commerce de Bourbon Palto, boutique de mode réunionnaise avec deux magasins physiques à Saint-Denis et Saint-Pierre. Le nouveau site remplace l\'ancienne version avec un design moderne et une gestion des variantes produits (taille, couleur, stock). Les 8 ans d\'historique de données clients et commandes ont été entièrement préservés.</p><ul><li>Catalogue avec filtres combinés (catégorie, taille, couleur, plage de prix)</li><li>Fiche produit avec galerie d\'images et sélecteur de variantes</li><li>Panier persistant et suivi de commande</li><li>Migration de 8 538 clients et 45 000+ commandes depuis l\'ancien système</li><li>Chargement -60% plus rapide sur les pages catalogue</li></ul>',
-            technologies: ['React 18', 'Vite', 'Redux Toolkit', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'MySQL', 'Scripts de migration'],
+            technologies: ['React 18', 'Vite', 'Redux Toolkit', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'MongoDB', 'Scripts de migration'],
             images: ['images/boubon_palto_1.png', 'images/boubon_palto_2.png', 'images/boubon_palto_3.png', 'images/boubon_palto_4.png', 'images/boubon_palto_5.png', 'images/boubon_palto_6.png'],
             features: [
                 { title: 'Site e-commerce', items: ['Catalogue avec filtres combinés (catégorie, taille, couleur, prix)', 'Fiche produit avec galerie d\'images et sélecteur de variantes', 'Panier persistant et suivi de commande'] },
@@ -217,11 +230,11 @@
             context: 'Plateforme SaaS de création et gestion de sites vitrines — DepannPC',
             period: 'Février 2025 – Mai 2025 (4 mois)',
             tag: 'Symfony 7 · Next.js',
-            description: '<p>Plateforme permettant à DepannPC de proposer des sites vitrines clé en main à ses clients professionnels. Chaque client accède à son propre espace pour modifier ses pages, ses textes, ses images, ses menus et les couleurs de son site, sans avoir besoin de compétences techniques. Le site public est généré automatiquement.</p><ul><li>15 types de blocs de contenu (bannière, galerie, FAQ, tarifs, équipe, témoignages...)</li><li>Personnalisation des couleurs, polices et style du site sans toucher au code</li><li>Réorganisation des blocs par glisser-déposer</li><li>Gestion des images, menus et pages (brouillon, publié, archivé)</li><li>Formulaires de contact avec suivi des messages reçus</li><li>Référencement paramétrable par page (titre, description, image de partage)</li></ul>',
+            description: '<p>Plateforme permettant à DepannPC de proposer des sites vitrines clé en main à ses clients professionnels. Chaque client accède à son propre espace pour modifier ses pages, ses textes, ses images, ses menus et les couleurs de son site, sans avoir besoin de compétences techniques. Le site public est généré automatiquement.</p><ul><li>14 types de blocs de contenu (bannière, galerie, FAQ, tarifs, équipe, témoignages...)</li><li>Personnalisation des couleurs, polices et style du site sans toucher au code</li><li>Réorganisation des blocs par glisser-déposer</li><li>Gestion des images, menus et pages (brouillon, publié, archivé)</li><li>Formulaires de contact avec suivi des messages reçus</li><li>Référencement paramétrable par page (titre, description, image de partage)</li></ul>',
             technologies: ['Symfony 7.4', 'PHP 8.2', 'MariaDB', 'Next.js 16', 'React 19', 'TypeScript', 'Tailwind CSS', 'shadcn/ui', 'Framer Motion', 'JWT', 'Docker', 'Nginx'],
             images: ['images/site_vitrine_1.png', 'images/site_vitrine_2.png', 'images/site_vitrine_3.png', 'images/site_vitrine_4.png', 'images/site_vitrine_5.png', 'images/site_vitrine_6.png', 'images/site_vitrine_7.png'],
             features: [
-                { title: 'Pour les clients', items: ['Gestion des pages et blocs de contenu (15 types, variantes visuelles)', 'Personnalisation des couleurs, polices et style du site', 'Gestion des images, menus et formulaires de contact'] },
+                { title: 'Pour les clients', items: ['Gestion des pages et blocs de contenu (14 types, variantes visuelles)', 'Personnalisation des couleurs, polices et style du site', 'Gestion des images, menus et formulaires de contact'] },
                 { title: 'Pour l\'équipe DepannPC', items: ['Création et administration de tous les espaces clients', 'Activation/désactivation et domaines personnalisés par client', 'Contrôle d\'accès à 3 niveaux (consulter / modifier / gérer)'] }
             ]
         },
@@ -231,7 +244,7 @@
             period: 'Janvier 2025 – Mai 2025 (5 mois)',
             tag: 'Node.js · React · MongoDB',
             description: '<p>Logiciel complet de gestion pour les réseaux de magasins et dépôts (épiceries, mini-marchés). Il couvre la gestion des produits et des stocks en temps réel, les achats fournisseurs, les ventes clients, la caisse enregistreuse certifiée conforme à la loi française, et les rapports financiers. L\'application peut s\'installer sur mobile et ordinateur.</p><ul><li>Catalogue produits avec codes-barres, prix multi-niveaux et alertes de rupture de stock</li><li>Stocks par magasin mis à jour en temps réel</li><li>Circuit complet achats et ventes : devis, commande, livraison, facture, avoir</li><li>Caisse enregistreuse certifiée conforme à la loi française (norme LNE) avec rapports journaliers</li><li>Tableau de bord, exports Excel et application installable sur mobile (PWA)</li></ul>',
-            technologies: ['Node.js 18', 'Express.js', 'MongoDB', 'React 18', 'Vite 6', 'Zustand', 'Tailwind CSS', 'DaisyUI', 'JWT', 'jsPDF', 'ExcelJS', 'Chart.js', 'Docker'],
+            technologies: ['Node.js 18', 'Express.js', 'MongoDB', 'React 18', 'Vite 6', 'Zustand', 'Tailwind CSS', 'DaisyUI', 'JWT', 'jsPDF', 'ExcelJS', 'Docker'],
             images: ['images/sox0.png', 'images/sox1.png', 'images/sox2.png'],
             features: [
                 { title: 'Gestion du stock et des ventes', items: ['Catalogue de produits avec codes-barres et QR', 'Stocks par magasin mis à jour en temps réel', 'Circuit complet achats et ventes (devis, commande, livraison, facture)'] },
