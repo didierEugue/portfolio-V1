@@ -189,7 +189,7 @@
         },
         'gexp': {
             title: 'Gestion des dossiers d\'expertise technique',
-            context: 'Application de gestion des missions pour experts techniques — Devphantom',
+            context: 'Application de gestion des missions pour experts techniques — Projet confidentiel',
             period: 'Avril 2025 – Mai 2025 (2 mois)',
             tag: 'Symfony 6 · Next.js',
             description: '<p>Application permettant à des experts techniques de gérer leurs dossiers du début à la fin : création du dossier, envoi du devis pour signature, planification de l\'intervention, rédaction du rapport, facturation et suivi des paiements. Des emails automatiques sont envoyés aux clients à chaque étape d\'avancement.</p><ul><li>Cycle complet en 7 étapes (brouillon → devis signé → intervention → clôturé)</li><li>Devis en PDF envoyé au client pour signature électronique</li><li>Facturation automatique après validation de l\'intervention</li><li>Emails automatiques à chaque étape du dossier</li><li>Formulaires de diagnostic adaptables selon le type d\'expertise</li></ul>',

@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:joel.nexilimits.com)"
+      "WebFetch(domain:joel.nexilimits.com)",
+      "Bash(Get-ChildItem \"c:\\\\Users\\\\Didier\\\\Desktop\\\\Projet\\\\first portfolio\\\\portfolio-V1\\\\images\")",
+      "Bash(Select-Object Name, Length)",
+      "Bash(Sort-Object Length -Descending)",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\Didier\\\\Desktop\\\\Projet\\\\first portfolio\\\\portfolio-V1\\\\images\" | Select-Object Name, @{N='KB';E={[math]::Round\\($_.Length/1KB,1\\)}} | Sort-Object KB -Descending)",
+      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\Didier\\\\Desktop\\\\Projet\\\\first portfolio\\\\portfolio-V1\\\\images\" | ForEach-Object { \"$\\($_.Name\\) - $\\([math]::Round\\($_.Length/1KB,1\\)\\) KB\" })"
     ]
   }
 }

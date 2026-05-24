@@ -1027,6 +1027,64 @@ ul, ol {
     line-height: 1.6;
 }
 
+/* ---------- Différenciation (Ma différence) ---------- */
+.diff-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xl);
+    margin-top: var(--space-2xl);
+}
+
+.diff-item {
+    padding: var(--space-2xl);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border-light);
+    background: var(--color-bg);
+    transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+}
+
+.diff-item:hover {
+    border-color: var(--color-accent);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.diff-item-num {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: var(--color-accent);
+    opacity: 0.3;
+    line-height: 1;
+    margin-bottom: var(--space-md);
+    display: block;
+}
+
+.diff-item-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+    line-height: 1.3;
+}
+
+.diff-item-text {
+    font-size: 1.5rem;
+    color: var(--color-text-muted);
+    line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+    .diff-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .diff-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* ---------- Portfolio / Projects ---------- */
 .portfolio-grid {
     display: grid;
